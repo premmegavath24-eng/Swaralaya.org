@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-maroon: #642B3B;
+    --color-deep-maroon: #401B29;
+    --color-gold: #C49A52;
+    --color-cream: #FBF7F0;
+    --color-dark-ink: #28242A;
+  }
+}
+
+.font-serif-title {
+  font-family: 'Cinzel', serif;
+}
+
+.font-serif-classic {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-mono-nums {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .invoice-paper {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Swaralaya Carnatic Music Academy",
+  "description": "Comprehensive Carnatic music academy web portal featuring student registration, live fee plans, tuition payment gateway, student class hub, and administrative management console.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
